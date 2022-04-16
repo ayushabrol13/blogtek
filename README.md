@@ -1,2 +1,2 @@
 # blogtek
-Bloggin Web Application - HMI Project
+Blogging Web Application for techical enthusiasts.

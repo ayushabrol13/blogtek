@@ -1,2 +1,2 @@
 # blogtek
-Blogging Web Application for techical enthusiasts.
+Blogging Web Application for Techical Enthusiasts.

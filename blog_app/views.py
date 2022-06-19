@@ -55,6 +55,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
             return True  # allow
         return False
 
+
 # UserPassesTestMixin is used to check that only author of that post should be able to delete that post
 
 
@@ -71,3 +72,5 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 def about(request):
     return render(request, 'blog_app/about.html', {'title': 'About'})
+
+
